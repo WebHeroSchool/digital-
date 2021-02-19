@@ -139,8 +139,8 @@ body {
 }
 
 .request__img {
-  margin: -153px 43px 0;
-  width: 350px;
+  margin: -153px 18px; 
+  width: 465px;
 
 }
 
@@ -154,7 +154,7 @@ body {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 	padding: 17px 30px;
     float: right;
-    margin-right: 131px;
+    margin-right: 86px;
 }
 
 
