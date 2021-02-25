@@ -226,7 +226,7 @@ body {
 }
 }
 
-@media (min-width: 320px) 
+@media (max-width: 320px) 
 
 /*@media screen and (min-width:188px) and (max-width:320px)*/ {
 .wrapper__header {
