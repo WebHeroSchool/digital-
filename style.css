@@ -459,7 +459,7 @@ body {
 
     .label {
         left: 84%;
-        width: 30px; ---------
+        width: 30px; 
     }
 
     .intro__title {
@@ -478,7 +478,7 @@ body {
         padding-top: 2.1vw;
         padding-left: 0vw;
         margin-bottom: 0;
-        padding-bottom: 14.1vw; -----------
+        padding-bottom: 14.1vw; 
     }
 
     .tickets {
@@ -571,7 +571,7 @@ body {
     .one {
         width: 82vw;
         height: 81vw;
-        margin-left: -41vw; -----------
+        margin-left: -41vw; 
     }
 
     .two, .three, .four, .five, .six, .seven, .eight {
@@ -580,7 +580,7 @@ body {
 
     .scroll {
         padding-left: 0;
-        padding-top: 87.2vw; --------------
+        padding-top: 87.2vw; 
     }
 
     .footer {
