@@ -42,20 +42,20 @@ body {
 }
 
 .intro__title {
-	font: 900 2.8vw/2.1vw 'Roboto', arial, helvetica, sans-serif;;
+	font: 900 2.8vw/2.1vw 'Roboto', arial, helvetica, sans-serif;
 	color: #e1e6e9;
 	margin-bottom: 1.29vw;
 }
 
 .intro__subtitle {
-	font:900 1.17vw/1.6vw 'Roboto', arial, helvetica, sans-serif;;
+	font:900 1.17vw/1.6vw 'Roboto', arial, helvetica, sans-serif;
     color: #e1e6e9;
     margin-bottom: 3.5vw;
 }
 
 .intro__button {
     padding: 16px 67px 16px 67px;
-    font: 900 1.2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;;
+    font: 900 1.2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     background: #e0036f;
@@ -71,7 +71,7 @@ body {
 }
 
 .tickets__now {
-	font: 600 2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;;
+	font: 600 2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
 	padding-top: 4.5vw;
 	padding-bottom: 2.7vw;
 	margin: 0;
@@ -80,7 +80,7 @@ body {
 }
 
 .tickets__price {
-	font: 900 1.9vw 'Roboto', arial, helvetica, sans-serif;;
+	font: 900 1.9vw 'Roboto', arial, helvetica, sans-serif;
 	color: #263b83;
 	margin: 0;
 	padding-left: 0vw;
@@ -90,7 +90,7 @@ body {
 
 .tickets__button__buy {
 	margin: 0 0 1.3vw 0;
-	font: 800 1.23vw/23px 'Roboto', arial, helvetica, sans-serif;;
+	font: 800 1.23vw/23px 'Roboto', arial, helvetica, sans-serif;
 	color: #000;
 	cursor: pointer;
 	padding: 0.9vw 5vw 1vw 4.5vw;
@@ -105,7 +105,7 @@ body {
 
 
 .tickets__reservation {
-	font: 900 1.2vw/23px 'Roboto', arial, helvetica, sans-serif;;
+	font: 900 1.2vw/23px 'Roboto', arial, helvetica, sans-serif;
     color: #585858;
     border-bottom: 0.2vw solid #ffda45;
     padding-bottom: 0.7vw;
@@ -408,6 +408,10 @@ body {
 #checkbox_id {
     opacity: 0;
     }
+
+.footer {
+    margin:0;
+}
 }
 
 @media (max-width: 768px) {
@@ -649,7 +653,7 @@ body {
 		padding: 4.5vw 104.5px 4.6vw 32vw;
 	}
 
-	.intro__subtitle{
+	.intro__subtitle {
 		font-size: 4vw;
 		line-height: 5.7vw;
 		padding-top: 2.1vw;
