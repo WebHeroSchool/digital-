@@ -393,214 +393,207 @@ body {
 }
 
 @media (max-width: 768px) {
-	.tickets__button__buy {
-	  margin: 0;
-	  padding: 0vw 6.5vw 0.2vw 7vw;
-	}
+  .tickets__button__buy {
+	margin: 0;
+	padding: 0 6.5vw 0.2vw 7vw;
+  }
 
-    .tickets__reservation {
-      padding-top: 1.8vw;
-    }
+  .tickets__reservation {
+    padding-top: 1.8vw;
+  }
 
-    .wa {
-      margin-top: -4.3vw;
-    }
+  .wa {
+    margin-top: -4.3vw;
+  }
 
-    .tg {
-      margin-top: -4.3vw;
-    }
+  .tg {
+    margin-top: -4.3vw;
+  }
 
-    .wrapper__header {
-      height: 27em;
-    }
+  .wrapper__header {
+    height: 27em;
+  }
 }
 
 @media (max-width: 695px) {
-    .wrapper__header {
-      height: 20em;
-    }
+  .wrapper__header {
+    height: 20em;
+  }
 
-    .tickets__button__buy {
-      padding: 0 6.5vw 0 7vw;
-      min-height: 0;
-    }
+  .tickets__button__buy {
+    padding: 0 6.5vw 0 7vw;
+    min-height: 0;
+  }
 
-    .intro__button {
-      padding: 2vw 6vw 1.8vw 6.5vw;
-      font-size: 1.7vw;
-    }
+  .intro__button {
+    padding: 2vw 6vw 1.8vw 6.5vw;
+    font-size: 1.7vw;
+  }
 }
 
 @media (max-width: 425px) {
   .header__nav {
     padding-bottom: 7.2vw;
-    }
+  }
 
-    .wrapper__header {
-      height: 21em;
-    }
+  .wrapper__header {
+    height: 21em;
+  }
 
-    .label {
-      left: 84%;
-      width: 30px; 
-    }
+  .label {
+    left: 84%;
+    width: 30px; 
+  }
 
-    .intro__title {
-      margin-top: 7vw;
-      font-size: 9.4vw;
-      padding-left: 0vw;
-    }
+  .intro__title {
+    margin-top: 7vw;
+    font-size: 9.4vw;
+    padding-left: 0vw;
+  }
 
-    .intro__button {
-      font-size: 4.2vw;
-      padding: 4.5vw 114.5px 4.6vw 32vw;
-    }
+  .intro__button {
+    font-size: 4.2vw;
+    padding: 4.5vw 114.5px 4.6vw 32vw;
+  }
 
-    .intro__subtitle{
-      font-size: 4vw;
-      line-height: 5.7vw;
-      padding-top: 2.1vw;
-      padding-left: 0vw;
-      margin-bottom: 0;
-      padding-bottom: 14.1vw; 
-    }
+  .intro__subtitle{
+    font-size: 4vw;
+    line-height: 5.7vw;
+    padding-top: 2.1vw;
+    padding-left: 0vw;
+    margin-bottom: 0;
+    padding-bottom: 14.1vw; 
+  }
 
-    .tickets {
-        height: 92vw;
-    }
+  .tickets {
+    height: 92vw;
+  }
 
-    .tickets__now {
-        font-size: 6vw;
-        line-height: 7.1vw;
-        padding-top: 7vw;
-    }
+  .tickets__now {
+    font-size: 6vw;
+    line-height: 7.1vw;
+    padding-top: 7vw;
+  }
 
-    .tickets__price {
-        font-size: 5.5vw;
-        padding-left: 3vw;
-        padding-bottom: 5.5vw;
-    }
+  .tickets__price {
+    font-size: 5.5vw;
+    padding-left: 3vw;
+    padding-bottom: 5.5vw;
+  }
 
-    .tickets__button__buy {
-        font-size: 5.3vw;
-        padding: 3vw 30.5vw 2.8vw 30vw;
-        margin-bottom: 6vw;
-    }
+  .tickets__button__buy {
+    font-size: 5.3vw;
+    padding: 3vw 30.5vw 2.8vw 30vw;
+    margin-bottom: 6vw;
+  }
 
-    .tickets__reservation {
-        font-size: 5.6vw;
-        padding-bottom: 3vw;
-        border-bottom: 1.2vw solid #ffda45;
-    }
+  .tickets__reservation {
+    font-size: 5.6vw;
+    padding-bottom: 3vw;
+    border-bottom: 1.2vw solid #ffda45;
+  }
 
-    .request {
-        /*align-content: space-between;
-        flex-flow: wrap;*/
-        display: flex;
-        align-items: flex-start;
-        height: 138vw;
-    }
+  .request {
+    display: flex;
+    align-items: flex-start;
+    height: 138vw;
+  }
 
-    .request__for {
-        font-size: 5.3vw;
-        line-height: 11vw;
-        position: absolute;
-        padding-left: 19.5vw;
-        padding-top: 9.4vw;
-        /*padding-left: 26.1vw;
-        padding-top: 10.1vw;*/
+  .request__for {
+    font-size: 5.3vw;
+    line-height: 11vw;
+    position: absolute;
+    padding-left: 19.5vw;
+    padding-top: 9.4vw;
+  }
 
-    }
+  .request__img {
+    height: 70vw;
+    width: 82vw;
+    padding-left: 2vw;
+    padding-top: 33vw;
+    position: absolute;
+  }
 
-    .request__img {
-        height: 70vw;
-        width: 82vw;
-        padding-left: 2vw;
-        padding-top: 33vw;
-        position: absolute;
-    }
+  .request__subtitle {
+    font-size: 2.8vw;
+    line-height: 3.6vw;
+    margin: 19.7vw 0 0 0;
+    padding-left: 8.8vw;
+    max-width: 69vw;
+    text-align: center;
+  }
 
-    .request__subtitle {
-        font-size: 2.8vw;
-        line-height: 3.6vw;
-        margin: 19.7vw 0 0 0;
-        padding-left: 8.8vw;
-        max-width: 69vw;
-        text-align: center;
-    }
+  .request__button {
+    font-size: 5.5vw;
+    padding: 3vw 18.8vw 3.7vw 18vw;
+    position: absolute;
+    margin-top: 111.5vw;
+    margin-left: 2.5vw;
+  }
 
-    .request__button {
-        font-size: 5.5vw;
-        padding: 3vw 18.8vw 3.7vw 18vw;
-        position: absolute;
-        margin-top: 111.5vw;
-        margin-left: 2.5vw;
-    }
+  .speakers {
+    height: 147vw;
+  } 
 
+  .speakers__title {
+    padding: 11vw 0 9vw 1vw;
+    font-size: 6vw;
+    line-height: 7.1vw;   
+  }
 
-    .speakers {
-        height: 147vw;
-    } 
+  .one {
+    width: 82vw;
+    height: 81vw;
+    margin-left: -41vw; 
+  }
 
-    .speakers__title {
-        padding: 11vw 0 9vw 1vw;
-        font-size: 6vw;
-        line-height: 7.1vw;
-       /* max-width: 94vw;*/
+  .two, .three, .four, .five, .six, .seven, .eight {
+    display: none;
+  }
 
-    }
+  .scroll {
+    padding-left: 0;
+    padding-top: 87.2vw; 
+  }
 
-    .one {
-        width: 82vw;
-        height: 81vw;
-        margin-left: -41vw; 
-    }
+  .footer {
+    height: 28vw;
+  }
 
-    .two, .three, .four, .five, .six, .seven, .eight {
-        display: none;
-    }
+  .vector {
+    width: 2vw;
+    height: 2.5vw;
+    margin-left: 9.8vw;
+    margin-top: -15vw;
+  }
 
-    .scroll {
-        padding-left: 0;
-        padding-top: 87.2vw; 
-    }
+  .footer__location {
+    font-size: 2.2vw;
+    margin-top: -13vw;
+    padding-left: 12.7vw;
+  }
 
-    .footer {
-        height: 28vw;
-    }
+  .footer__contacts {
+    font-size: 2.6vw;
+    line-height: 4.1vw;
+    margin-top: -8vw;
+    padding-left: 52.5vw;
+  }
 
-    .vector {
-        width: 2vw;
-        height: 2.5vw;
-        margin-left: 9.8vw;
-        margin-top: -15vw;
-    }
+  .wa {
+    width: 6.5vw;
+    height: 6.5vw;
+    padding-left: 14.5vw;
+    margin-top: -7.2vw;
+  }
 
-    .footer__location {
-        font-size: 2.2vw;
-        margin-top: -13vw;
-        padding-left: 12.7vw;
-    }
-
-    .footer__contacts {
-        font-size: 2.6vw;
-        line-height: 4.1vw;
-        margin-top: -8vw;
-        padding-left: 52.5vw;
-    }
-
-    .wa {
-        width: 6.5vw;
-        height: 6.5vw;
-        padding-left: 14.5vw;
-        margin-top: -7.2vw;
-    }
-    .tg {
-        width: 5.9vw;
-        height: 5.9vw;
-        margin-top: -8.5vw;
-        margin-left: -9.5vw;
-    }
+  .tg {
+    width: 5.9vw;
+    height: 5.9vw;
+    margin-top: -8.5vw;
+    margin-left: -9.5vw;
+  }
 }
 
 
@@ -608,185 +601,177 @@ body {
 
 
 @media (max-width: 320px) {
-	.header__nav {
-		padding-bottom: 7.2vw;
-	}
+  .header__nav {
+	padding-bottom: 7.2vw;
+  }
 
-	.wrapper__header {
-		height: 21em;
-	}
+  .wrapper__header {
+	height: 21em;
+  }
 
-	.label {
-		left: 84%;
-		width: 22px;
-	}
+  .label {
+	left: 84%;
+	width: 22px;
+  }
 
-	.intro__title {
-		margin-top: 7vw;
-		font-size: 9.4vw;
-		padding-left: 0vw;
-	}
-	.intro__button {
-		font-size: 4.2vw;
-		padding: 4.5vw 104.5px 4.6vw 32vw;
-	}
+  .intro__title {
+	margin-top: 7vw;
+	font-size: 9.4vw;
+	padding-left: 0vw;
+  }
 
-	.intro__subtitle {
-		font-size: 4vw;
-		line-height: 5.7vw;
-		padding-top: 2.1vw;
-		padding-left: 0vw;
-		margin-bottom: 0;
-        padding-bottom: 38.1vw;
-	}
+  .intro__button {
+	font-size: 4.2vw;
+	padding: 4.5vw 104.5px 4.6vw 32vw;
+  }
 
-	.tickets {
-		height: 92vw;
-	}
+  .intro__subtitle {
+	font-size: 4vw;
+	line-height: 5.7vw;
+	padding-top: 2.1vw;
+	padding-left: 0vw;
+	margin-bottom: 0;
+    padding-bottom: 38.1vw;
+  }
 
-	.tickets__now {
-		font-size: 6vw;
-		line-height: 7.1vw;
-		padding-top: 7vw;
-        padding-left: 11vw;
-        max-width: 77vw;
-	}
+  .tickets {
+	height: 92vw;
+  }
 
-	.tickets__price {
-		font-size: 5.5vw;
-		padding-left: 3vw;
-		padding-bottom: 5.5vw;
-	}
+  .tickets__now {
+	font-size: 6vw;
+	line-height: 7.1vw;
+	padding-top: 7vw;
+    padding-left: 11vw;
+    max-width: 77vw;
+  }
 
-    .tickets__button__buy {
-    	font-size: 5.3vw;
-    	padding: 3vw 30.5vw 2.8vw 30vw;
-    	margin-bottom: 9vw;
-    }
+  .tickets__price {
+	font-size: 5.5vw;
+	padding-left: 3vw;
+	padding-bottom: 5.5vw;
+  }
 
-    .tickets__reservation {
-    	font-size: 5.6vw;
-        padding-bottom: 3vw;
-    	border-bottom: 1.2vw solid #ffda45;
+  .tickets__button__buy {
+    font-size: 5.3vw;
+    padding: 3vw 30.5vw 2.8vw 30vw;
+    margin-bottom: 9vw;
+  }
 
-   
-    }
+  .tickets__reservation {
+    font-size: 5.6vw;
+    padding-bottom: 3vw;
+    border-bottom: 1.2vw solid #ffda45;
+  }
 
-    .request {
-        /*align-content: space-between;
-        flex-flow: wrap;*/
-    	display: flex;
-    	align-items: flex-start;
-    	height: 138vw;
-    }
+  .request {
+    display: flex;
+    align-items: flex-start;
+    height: 138vw;
+  }
 
-    .request__for {
-    	font-size: 5.3vw;
-    	line-height: 11vw;
-        position: absolute;
-        padding-left: 19.5vw;
-        padding-top: 9.4vw;
-        /*padding-left: 26.1vw;
-        padding-top: 10.1vw;*/
+  .request__for {
+    font-size: 5.3vw;
+    line-height: 11vw;
+    position: absolute;
+    padding-left: 19.5vw;
+    padding-top: 9.4vw;
+  }
 
-    }
+  .request__img {
+    height: 70vw;
+    width: 82vw;
+    padding-left: 2vw;
+    padding-top: 33vw;
+    position: absolute;
+  }
 
-    .request__img {
-    	height: 70vw;
-    	width: 82vw;
-    	padding-left: 2vw;
-    	padding-top: 33vw;
-        position: absolute;
-    }
+  .request__subtitle {
+    font-size: 2.8vw;
+    line-height: 3.6vw;
+    margin: 19.7vw 0 0 0;
+    padding-left: 8.8vw;
+    max-width: 69vw;
+    text-align: center;
+  }
 
-    .request__subtitle {
-        font-size: 2.8vw;
-        line-height: 3.6vw;
-        margin: 19.7vw 0 0 0;
-        padding-left: 8.8vw;
-        max-width: 69vw;
-        text-align: center;
-    }
+  .request__button {
+    font-size: 5.5vw;
+    padding: 3vw 18.8vw 3.7vw 18vw;
+    position: absolute;
+    margin-top: 111.5vw;
+    margin-left: 2.5vw;
+  }
 
-    .request__button {
-        font-size: 5.5vw;
-        padding: 3vw 18.8vw 3.7vw 18vw;
-        position: absolute;
-        margin-top: 111.5vw;
-        margin-left: 2.5vw;
-    }
+  .speakers {
+    height: 147vw;
+  } 
 
+  .speakers__title {
+    padding: 11vw 0 4.5vw 7vw;
+    font-size: 6vw;
+    line-height: 7.1vw;
+    max-width: 86vw;
+    text-indent: -2vw;
+  }
 
-    .speakers {
-    	height: 147vw;
-    } 
+  .one {
+    width: 82vw;
+    height: 81vw;
+  }
 
-    .speakers__title {
-    	padding: 11vw 0 4.5vw 7vw;
-    	font-size: 6vw;
-    	line-height: 7.1vw;
-        max-width: 86vw;
-        text-indent: -2vw;
+  .two, .three, .four, .five, .six, .seven, .eight {
+    display: none;
+  }
 
-    }
+  .scroll {
+    padding-left: 0;
+    padding-top: 85.5vw;
+  }
 
-    .one {
-    	width: 82vw;
-    	height: 81vw;
- 
-    }
+  .footer {
+	height: 28vw;
+  }
 
-    .two, .three, .four, .five, .six, .seven, .eight {
-    	display: none;
-    }
+  .vector {
+    width: 2vw;
+    height: 2.5vw;
+    margin-left: 9.8vw;
+    margin-top: -15vw;
+  }
 
-    .scroll {
-    	padding-left: 0;
-    	padding-top: 85.5vw;
-    }
+  .footer__location {
+    font-size: 2.2vw;
+    margin-top: -13vw;
+    padding-left: 12.7vw;
+  }
 
-    .footer {
-    	height: 28vw;
-    }
+  .footer__contacts {
+    font-size: 2.6vw;
+    line-height: 4.1vw;
+    margin-top: -8vw;
+    padding-left: 52.5vw;
+  }
 
-    .vector {
-    	width: 2vw;
-    	height: 2.5vw;
-    	margin-left: 9.8vw;
-    	margin-top: -15vw;
-    }
+  .wa {
+    width: 6.5vw;
+    height: 6.5vw;
+    padding-left: 14.5vw;
+    margin-top: -7.2vw;
+  }
 
-    .footer__location {
-    	font-size: 2.2vw;
-    	margin-top: -13vw;
-    	padding-left: 12.7vw;
-    }
+  .tg {
+    width: 5.9vw;
+    height: 5.9vw;
+    margin-top: -8.5vw;
+    margin-left: -9.5vw;
+  }
 
-    .footer__contacts {
-    	font-size: 2.6vw;
-    	line-height: 4.1vw;
-    	margin-top: -8vw;
-    	padding-left: 52.5vw;
-    }
+  .speakers__title br {
+    display: none;
+  }
 
-    .wa {
-    	width: 6.5vw;
-    	height: 6.5vw;
-    	padding-left: 14.5vw;
-    	margin-top: -7.2vw;
-    }
-    .tg {
-    	width: 5.9vw;
-    	height: 5.9vw;
-    	margin-top: -8.5vw;
-    	margin-left: -9.5vw;
-    }
-
-    .speakers__title br {
-        display: none;
-    }
-
-    .tickets__now br {
-        display: none;
-    }
+  .tickets__now br {
+    display: none;
+  }
 }
