@@ -1,129 +1,122 @@
 title {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .wrapper__header {
-	background: url(./img/intro-bg.jpg) no-repeat center;
-	background-size: cover;
-	height: 52em;
-	width: 100%;
+  background: url(./img/intro-bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 52em;
+  width: 100%;
 }
 
 
 .header__nav {
-    padding-bottom: 7.3vw;
-    padding-right: 9vw;
-    padding-top: 4.8vw;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
+  padding-bottom: 7.3vw;
+  padding-right: 9vw;
+  padding-top: 4.8vw;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 
 .header-nav__link {
-	font: 900 1.1vw 'Roboto', arial, helvetica, sans-serif;
-	color: #fff;
-	text-decoration: none;
-	margin-right: 3.8vw;
-	text-align: right;
+  font: 900 1.1vw 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 3.8vw;
+  text-align: right;
 }
 
 .header-nav__link:last-child {
-	margin: 0;
+  margin: 0;
 }
 
 .intro {
-	padding-right: 9vw;
-  	text-align: right;
+  padding-right: 9vw;
+  text-align: right;
 }
 
 .intro__title {
-	font: 900 2.8vw/2.1vw 'Roboto', arial, helvetica, sans-serif;
-	color: #e1e6e9;
-	margin-bottom: 1.29vw;
+  font: 900 2.8vw/2.1vw 'Roboto', arial, helvetica, sans-serif;
+  color: #e1e6e9;
+  margin-bottom: 1.29vw;
 }
 
 .intro__subtitle {
-	font:900 1.17vw/1.6vw 'Roboto', arial, helvetica, sans-serif;
-    color: #e1e6e9;
-    margin-bottom: 3.5vw;
+  font:900 1.17vw/1.6vw 'Roboto', arial, helvetica, sans-serif;
+  color: #e1e6e9;
+  margin-bottom: 3.5vw;
 }
 
 .intro__button {
-    padding: 16px 67px 16px 67px;
-    font: 900 1.2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
-    color: #fff;
-    text-decoration: none;
-    background: #e0036f;
-    cursor: pointer;
+  padding: 16px 67px 16px 67px;
+  font: 900 1.2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  background: #e0036f;
+  cursor: pointer;
 }
 
 .tickets {
-	height: 28vw;
-	background: #e3eafe;
-	text-align: center;
-	margin: 0;
+  height: 28vw;
+  background: #e3eafe;
+  text-align: center;
+  margin: 0;
 
 }
 
 .tickets__now {
-	font: 600 2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
-	padding-top: 4.5vw;
-	padding-bottom: 2.7vw;
-	margin: 0;
-	color: #585858;
-    text-indent: -1vw;
+  font: 600 2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
+  padding-top: 4.5vw;
+  padding-bottom: 2.7vw;
+  margin: 0;
+  color: #585858;
+  text-indent: -1vw;
 }
 
 .tickets__price {
-	font: 900 1.9vw 'Roboto', arial, helvetica, sans-serif;
-	color: #263b83;
-	margin: 0;
-	padding-left: 0vw;
-	padding-bottom: 2.4vw;
+  font: 900 1.9vw 'Roboto', arial, helvetica, sans-serif;
+  color: #263b83;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 2.4vw;
 
 }
 
 .tickets__button__buy {
-	margin: 0 0 1.3vw 0;
-	font: 800 1.23vw/23px 'Roboto', arial, helvetica, sans-serif;
-	color: #000;
-	cursor: pointer;
-	padding: 0.9vw 5vw 1vw 4.5vw;
-    min-height: 43px;
-   /* min-width: 32px;*/
-	/*padding: 1.5vw 7vw 0.5vw 4.1vw;*/
-	background: #ffda45;
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25)
-	
+  margin: 0 0 1.3vw 0;
+  font: 800 1.23vw/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #000;
+  cursor: pointer;
+  padding: 0.9vw 5vw 1vw 4.5vw;
+  min-height: 43px;
+  background: #ffda45;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25)
 }
 
-
-
 .tickets__reservation {
-	font: 900 1.2vw/23px 'Roboto', arial, helvetica, sans-serif;
-    color: #585858;
-    border-bottom: 0.2vw solid #ffda45;
-    padding-bottom: 0.7vw;
-    padding-top: 1.8vw;
-    padding-left: 0.2vw;
-    text-decoration: none;
+  font: 900 1.2vw/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #585858;
+  border-bottom: 0.2vw solid #ffda45;
+  padding-bottom: 0.7vw;
+  padding-top: 1.8vw;
+  padding-left: 0.2vw;
+  text-decoration: none;
 }
 
 .request {
-	padding: 0 9vw 0 7vw;
-	display: flex;
-	justify-content: space-between;
-	height: 23vw;
-	background: #405dbb;
-	margin: 0;
-	align-items: center;
-
-
+  padding: 0 9vw 0 7vw;
+  display: flex;
+  justify-content: space-between;
+  height: 23vw;
+  background: #405dbb;
+  margin: 0;
+  align-items: center;
 }
 
 .request__for {
@@ -312,20 +305,19 @@ body {
 	padding: 0vw 4vw 0vw 5vw;
 }
 
+
 .speakers__title {
-	padding: 5vw 0 4vw 1vw;
+	padding: 6vw 0 4vw 1vw;
 }
 
-.footer__contacts {
-	padding-left: 69.4vw;
-}
+
 
 .label {
     left: 90%;
     display: block;
     position: relative;
     margin-right: 5px;
-    width: 29px;
+    width: 40px;
     height: 17px;
     cursor: pointer;
 }
@@ -408,10 +400,6 @@ body {
 #checkbox_id {
     opacity: 0;
     }
-
-.footer {
-    margin:0;
-}
 }
 
 @media (max-width: 768px) {

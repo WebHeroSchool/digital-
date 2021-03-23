@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-    url('../fonts/roboto-v20-latin-500.ttf') format('ttf'); 
+    url('../fonts/roboto-v20-latin-500.ttf') format('ttf');
 }
 
 @font-face {
