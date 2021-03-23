@@ -251,10 +251,10 @@ body {
 }
 
 .wa {
-	margin-top: -3.3vw;
-    padding-left: 17.6vw;
-    width: 3.5vw;
-    height: 3.5vw;
+  margin-top: -3.3vw;
+  padding-left: 17.6vw;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 .tg {
@@ -265,15 +265,14 @@ body {
 }
 
 #checkbox_id {
-    display: none;
-    }
-
-@media (min-width: 426px) {
-	.scroll {
-		display: none;
-	}
+  display: none;
 }
 
+@media (min-width: 426px) {
+  .scroll {
+	display: none;
+  }
+}
 
 @media (max-width: 1024px) {
 .header-nav__link {
@@ -429,9 +428,10 @@ body {
       font-size: 1.7vw;
     }
 }
+
 @media (max-width: 425px) {
-    .header__nav {
-      padding-bottom: 7.2vw;
+  .header__nav {
+    padding-bottom: 7.2vw;
     }
 
     .wrapper__header {
@@ -489,8 +489,6 @@ body {
         font-size: 5.6vw;
         padding-bottom: 3vw;
         border-bottom: 1.2vw solid #ffda45;
-
-   
     }
 
     .request {
