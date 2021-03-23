@@ -13,7 +13,6 @@ body {
   width: 100%;
 }
 
-
 .header__nav {
   padding-bottom: 7.3vw;
   padding-right: 9vw;
@@ -22,7 +21,6 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
 
 .header-nav__link {
   font: 900 1.1vw 'Roboto', arial, helvetica, sans-serif;
@@ -67,7 +65,6 @@ body {
   background: #e3eafe;
   text-align: center;
   margin: 0;
-
 }
 
 .tickets__now {
@@ -279,28 +276,28 @@ body {
     display: none;
   } 
 
- .header__nav {
+  .header__nav {
     padding-bottom: 4.5vw;
- }
+  }
 
- .wrapper__header {
+  .wrapper__header {
     height: 36em;
- }
+  }
 
- .intro {
+  .intro {
    text-align: center;
    padding: 0;
- }
+  }
 
-.tickets__button__buy {
+  .tickets__button__buy {
 	padding: 0 4vw 0 5vw;
-}
+  }
 
-.speakers__title {
+  .speakers__title {
     padding: 6vw 0 4vw 1vw;
-}
+  }
 
-.label {
+  .label {
     left: 90%;
     display: block;
     position: relative;
@@ -308,85 +305,90 @@ body {
     width: 40px;
     height: 17px;
     cursor: pointer;
-}
+  }
   
-.label > span,
-.label > span::before,
-.label > span::after{
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
+  .label > span,
+  .label > span::before,
+  .label > span::after{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
   
-.label > span::before {
-  content: '';
-  top: -8px;
-  background: white;
-}
+  .label > span::before {
+    content: '';
+    top: -8px;
+    background: white;
+  }
 
-.label > span::after {
-  content: '';
-  top: 8px;
-  background: white;
-}
+  .label > span::after {
+    content: '';
+    top: 8px;
+    background: white;
+  }
 
-#checkbox_id:checked ~ .header__nav {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-  background: #fff;
-  position: absolute;
-  top: 8px;
-  left: 0;
-  width: 100%;
-  margin: 2px 0 0 0;
-}
+  #checkbox_id:checked ~ .header__nav {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    margin: 2px 0 0 0;
+  }
 
-#checkbox_id:checked ~ .header__nav > .header-nav__link {
-  color: black;
-  text-decoration: none;
-  font-size: 31px;
-  font-weight: 600;
-  height: 40px;
-  display: block;
-  margin: 0 24px 20px 40px;
-  word-spacing: 0;
-}
+  #checkbox_id:checked ~ .header__nav > .header-nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 31px;
+    font-weight: 600;
+    height: 40px;
+    display: block;
+    margin: 0 24px 20px 40px;
+    word-spacing: 0;
+  }
   
-#checkbox_id:checked ~ .label > span {
-  transform: rotate(45deg);
-}
-#checkbox_id:checked ~ .label > span::before {
-  top: 0;
-  transform: rotate(0);
-}
-#checkbox_id:checked ~ .label > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#checbox_id:checked ~ .header__nav {
-  visibility: visible;
-  left: 0;
-}
+  #checkbox_id:checked ~ .label > span {
+    transform: rotate(45deg);
+  }
 
-#checkbox_id:checked ~ .label > span::before {
-  top: 0;
-  transform: rotate(0);
-}
-#checkbox_id:checked ~ .label > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#checbox_id:checked ~ .header__nav {
-  visibility: visible;
-  left: 0;
-}
+  #checkbox_id:checked ~ .label > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
 
-#checkbox_id {
-  opacity: 0;
+  #checkbox_id:checked ~ .label > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #checbox_id:checked ~ .header__nav {
+    visibility: visible;
+    left: 0;
+  }
+
+  #checkbox_id:checked ~ .label > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #checkbox_id:checked ~ .label > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #checbox_id:checked ~ .header__nav {
+    visibility: visible;
+    left: 0;
+  }
+
+  #checkbox_id {
+    opacity: 0;
   }
 }
 
