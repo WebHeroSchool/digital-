@@ -82,7 +82,6 @@ body {
   margin: 0;
   padding-left: 0;
   padding-bottom: 2.4vw;
-
 }
 
 .tickets__button__buy {
@@ -146,7 +145,7 @@ body {
 }
 
 .speakers {
-  height: 66vw; 
+  height: 66vw;
   background: #e3eafe;
   text-align: center;
 }
@@ -163,8 +162,7 @@ body {
   margin-bottom: -1.5vw;
 }
 
-
-.one  {
+.one {
   margin-left: -20.9vw;
   margin-bottom: 5.5vw;
   width: 19.5vw;
@@ -267,14 +265,14 @@ body {
 
 @media (min-width: 426px) {
   .scroll {
-	display: none;
+    display: none;
   }
 }
 
 @media (max-width: 1024px) {
   .header-nav__link {
     display: none;
-  } 
+  }
 
   .header__nav {
     padding-bottom: 4.5vw;
@@ -285,8 +283,8 @@ body {
   }
 
   .intro {
-   text-align: center;
-   padding: 0;
+  text-align: center;
+    padding: 0;
   }
 
   .tickets__button__buy {
@@ -306,10 +304,10 @@ body {
     height: 17px;
     cursor: pointer;
   }
-  
+
   .label > span,
   .label > span::before,
-  .label > span::after{
+  .label > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -372,7 +370,7 @@ body {
     left: 0;
   }
 
-  #checkbox_id:checked ~ .label > span::before {
+  /*#checkbox_id:checked ~ .label > span::before {
     top: 0;
     transform: rotate(0);
   }
@@ -380,12 +378,12 @@ body {
   #checkbox_id:checked ~ .label > span::after {
     top: 0;
     transform: rotate(90deg);
-  }
+  } 
 
   #checbox_id:checked ~ .header__nav {
     visibility: visible;
     left: 0;
-  }
+  }*/
 
   #checkbox_id {
     opacity: 0;
@@ -394,8 +392,8 @@ body {
 
 @media (max-width: 768px) {
   .tickets__button__buy {
-	margin: 0;
-	padding: 0 6.5vw 0.2vw 7vw;
+  margin: 0;
+    padding: 0 6.5vw 0.2vw 7vw;
   }
 
   .tickets__reservation {
@@ -442,13 +440,13 @@ body {
 
   .label {
     left: 84%;
-    width: 30px; 
+    width: 30px;
   }
 
   .intro__title {
     margin-top: 7vw;
     font-size: 9.4vw;
-    padding-left: 0vw;
+    padding-left: 0;
   }
 
   .intro__button {
@@ -456,13 +454,13 @@ body {
     padding: 4.5vw 114.5px 4.6vw 32vw;
   }
 
-  .intro__subtitle{
+  .intro__subtitle {
     font-size: 4vw;
     line-height: 5.7vw;
     padding-top: 2.1vw;
     padding-left: 0vw;
     margin-bottom: 0;
-    padding-bottom: 14.1vw; 
+    padding-bottom: 14.1vw;
   }
 
   .tickets {
@@ -539,13 +537,13 @@ body {
   .speakers__title {
     padding: 11vw 0 9vw 1vw;
     font-size: 6vw;
-    line-height: 7.1vw;   
+    line-height: 7.1vw; 
   }
 
   .one {
     width: 82vw;
     height: 81vw;
-    margin-left: -41vw; 
+    margin-left: -41vw;
   }
 
   .two, .three, .four, .five, .six, .seven, .eight {
@@ -554,7 +552,7 @@ body {
 
   .scroll {
     padding-left: 0;
-    padding-top: 87.2vw; 
+    padding-top: 87.2vw;
   }
 
   .footer {
@@ -602,54 +600,54 @@ body {
 
 @media (max-width: 320px) {
   .header__nav {
-	padding-bottom: 7.2vw;
+    padding-bottom: 7.2vw;
   }
 
   .wrapper__header {
-	height: 21em;
+    height: 21em;
   }
 
   .label {
-	left: 84%;
-	width: 22px;
+    left: 84%;
+    width: 22px;
   }
 
   .intro__title {
-	margin-top: 7vw;
-	font-size: 9.4vw;
-	padding-left: 0vw;
+    margin-top: 7vw;
+    font-size: 9.4vw;
+    padding-left: 0vw;
   }
 
   .intro__button {
-	font-size: 4.2vw;
-	padding: 4.5vw 104.5px 4.6vw 32vw;
+    font-size: 4.2vw;
+    padding: 4.5vw 104.5px 4.6vw 32vw;
   }
 
   .intro__subtitle {
-	font-size: 4vw;
-	line-height: 5.7vw;
-	padding-top: 2.1vw;
+    font-size: 4vw;
+    line-height: 5.7vw;
+    padding-top: 2.1vw;
 	padding-left: 0vw;
-	margin-bottom: 0;
+    margin-bottom: 0;
     padding-bottom: 38.1vw;
   }
 
   .tickets {
-	height: 92vw;
+    height: 92vw;
   }
 
   .tickets__now {
-	font-size: 6vw;
-	line-height: 7.1vw;
-	padding-top: 7vw;
+    font-size: 6vw;
+    line-height: 7.1vw;
+    padding-top: 7vw;
     padding-left: 11vw;
     max-width: 77vw;
   }
 
   .tickets__price {
-	font-size: 5.5vw;
-	padding-left: 3vw;
-	padding-bottom: 5.5vw;
+    font-size: 5.5vw;
+    padding-left: 3vw;
+    padding-bottom: 5.5vw;
   }
 
   .tickets__button__buy {
@@ -730,7 +728,7 @@ body {
   }
 
   .footer {
-	height: 28vw;
+    height: 28vw;
   }
 
   .vector {
