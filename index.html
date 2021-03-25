@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Digital Meeting day</title>
-	<link rel="stylesheet" href="https:googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="https:googleapis.com/css2?family=Roboto:wght@500;900;" >
 	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="wrapper__header">
+	<div class="hamburger-menu">
+	 <input id="checkbox_id" type="checkbox">
+	   <div class="wrapper__header">
 		<header class="header">
 			<nav class="header__nav">
 				<a class="header-nav__link" href="#">Связаться с нами</a>
@@ -18,6 +18,10 @@
 				<a class="header-nav__link" href="#">Забронировать</a>
 				<a class="header-nav__link" href="#">Узнать цены</a>
 			</nav>
+			 <label class="label" for="checkbox_id">
+				 <span class="burger__nav"></span>
+				  <span class="burger__line"></span>
+			 </label>
 			<section class="intro">
 				<h1 class="intro__title">Digital Meeting day</h1>
 				<p class="intro__subtitle">Количество мест ограничено,<br>успей купить билеты</p>
@@ -25,8 +29,9 @@
 		</header>
 		    </section>			
 	</div>
+    </div> 
 		    <section class="tickets">
-				<p class="tickets_now">Билеты на мероприятие Digital Meeting Day<br> можно приобрести прямо сейчас</p>
+				<h1 class="tickets__now">Билеты на мероприятие Digital Meeting Day<br> можно приобрести прямо сейчас</h1>
 				<p class="tickets__price">7 000 рублей</p>
 		      <div>
 		  	    <button class="tickets__button__buy">Купить</button>
@@ -34,22 +39,30 @@
 		    <a class="tickets__reservation" href="#">Забронировать</a>
 			</section>
 			<section class="request">
+				<div>
 				<h1 class="request__for">Для участников</h1>
 				<h2 class="request__subtitle">Чтобы стать участником конукурса,<br> вам необходимо подать заявку до 1 октября</h2>
+			</div>
 				<img src="img/pic.png" alt=""  class="request__img">
 				<a class="request__button" href="#">Подать заявку</a>
-			</section>
+			</section> 
 			<section class="speakers">
 				<h1 class="speakers__title">Спикеры, которые подготовили<br> для вас ценные лекции</h1>
 				<img src="" alt="" class="speakers__photos">
-				<img src="img/1.png" alt="" class="one">
+			<div class="first">
+
+			    <img src="img/1.png" alt="" class="one">
 				<img src="img/2.png" alt="" class="two">
 				<img src="img/3.png" alt="" class="three">
-				<img src="img/4.png" alt="" class="four" >
+				<img src="img/4.png" alt="" class="four"><br>
+			</div>
+			<div class="second">
 				<img src="img/5.png" alt="" class="five">
 				<img src="img/6.png" alt="" class="six">
 				<img src="img/7.png" alt="" class="seven">
 				<img src="img/8.png" alt="" class="eight">
+			</div>
+				<img src="img/scroll.png" alt="" class="scroll">
 			</section>
 			<footer class="footer">
 				<img src="img/vector.png" alt="" class="vector">
