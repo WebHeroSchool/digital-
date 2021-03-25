@@ -9,7 +9,8 @@ body {
 .wrapper__header {
   background: url(./img/intro-bg.jpg) no-repeat center;
   background-size: cover;
-  height: 52em;
+  /* height: 52em; */
+  height: 58.23vw;
   width: 100%;
 }
 
@@ -42,7 +43,7 @@ body {
 .intro__title {
   font: 900 2.8vw/2.1vw 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
-  margin-bottom: 1.29vw;
+  margin-bottom: 1.31vw;
 }
 
 .intro__subtitle {
@@ -52,7 +53,7 @@ body {
 }
 
 .intro__button {
-  padding: 16px 67px 16px 67px;
+  padding: 16px 67px 19px 67px;
   font: 900 1.2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   text-decoration: none;
@@ -61,7 +62,7 @@ body {
 }
 
 .tickets {
-  height: 28vw;
+  height: 27.57vw;
   background: #e3eafe;
   text-align: center;
   margin: 0;
@@ -69,7 +70,7 @@ body {
 
 .tickets__now {
   font: 600 2vw/2.3vw 'Roboto', arial, helvetica, sans-serif;
-  padding-top: 4.5vw;
+  padding-top: 4vw;
   padding-bottom: 2.7vw;
   margin: 0;
   color: #585858;
@@ -109,7 +110,7 @@ body {
   padding: 0 9vw 0 7vw;
   display: flex;
   justify-content: space-between;
-  height: 23vw;
+  height: 22.71vw;
   background: #405dbb;
   margin: 0;
   align-items: center;
@@ -119,6 +120,7 @@ body {
   font: 900 1.75vw/4vw 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   margin: 0;
+  padding-top: 0.12vw;
   padding-left: 2vw;
 }
 
@@ -130,8 +132,9 @@ body {
 }
 
 .request__img {
-  height: 23vw;
-  width: 32vw;
+  height: 22.7vw;
+  width: 32.3vw;
+  padding-left: 0.5vw;
 }
 
 .request__button {
@@ -145,7 +148,7 @@ body {
 }
 
 .speakers {
-  height: 66vw;
+  height: 66.2vw;
   background: #e3eafe;
   text-align: center;
 }
@@ -165,12 +168,14 @@ body {
 .one {
   margin-left: -20.9vw;
   margin-bottom: 5.5vw;
+  margin-top: 0.21vw;
   width: 19.5vw;
   position: absolute;
 }
 
 .two {
   margin-bottom: 5.5vw;
+  margin-top: 0.21vw;
   width: 19.5vw;
   padding-left: 0;
 }
@@ -182,38 +187,43 @@ body {
 }
 
 .four {
-  padding-left: 1.5vw;
+  padding-left: 1.35vw;
   margin-bottom: 5.5vw;
+  margin-top: 0.22vw;
   width: 19.5vw;
   position: absolute;
 }
 
 .five {
   margin-left: -20.8vw;
+  margin-top: 0.19vw;
   width: 19.5vw;
   position: absolute;
 }
 
 .six {
-  margin-left: 0.1vw;
+  margin-left: 0;
+  margin-top: 0.19vw;
   width: 19.5vw;
   position: absolute;
 }
 
 .seven {
   margin-left: 0;
+  margin-top: 0.19vw;
   width: 19.5vw;
   padding-left: 21vw;
 }
 
 .eight {
   padding-left: 1.2vw;
+  margin-top: 0.19vw;
   width: 19.5vw;
   position: absolute;
 }
 
 .footer {
-  height: 18vw;
+  height: 17.35vw;
   background: #0e1e71;
   margin: 0;
   display: flex;
@@ -222,39 +232,39 @@ body {
 }
 
 .vector {
-  width: 1vw;
+  width: 1.1vw;
   height: 1.5vw;
-  margin-left: 9.3vw;
-  margin-top: -10vw;
+  margin-left: 9.25vw;
+  margin-top: -9.1vw;
 }
 
 .footer__location {
   font: 900 1.1vw 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
-  padding-left: 11vw;
+  padding-left: 10.86vw;
   position: absolute;
-  margin-top: -9vw;
+  margin-top: -8vw;
 }
 
 .footer__contacts {
   font: 900 1.3vw/2vw 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
-  padding-left: 70.4vw;
+  padding-left: 70.3vw;
   text-align: right;
-  margin-top: -7vw;
+  margin-top: -6vw;
   position: absolute;
 }
 
 .wa {
-  margin-top: -3.3vw;
-  padding-left: 17.6vw;
-  width: 3.5vw;
+  margin-top: -2.6vw;
+  padding-left: 17.59vw;
+  width: 3.55vw;
   height: 3.5vw;
 }
 
 .tg {
   width: 3.5vw;
-  margin-top: -3.3vw;
+  margin-top: -2.6vw;
   margin-left: -9vw;
   height: 3.5vw;
 }
@@ -600,7 +610,7 @@ body {
   }
 
   .wrapper__header {
-    height: 21em;
+    height: 20.9em;
   }
 
   .label {
@@ -647,21 +657,22 @@ body {
   }
 
   .tickets__button__buy {
-    font-size: 5.3vw;
-    padding: 3vw 30.5vw 2.8vw 30vw;
-    margin-bottom: 9vw;
+    font-size: 5.5vw;
+    padding: 3vw 30.5vw 4vw 30vw;
+    margin-bottom: 8vw;
   }
 
   .tickets__reservation {
     font-size: 5.6vw;
-    padding-bottom: 3vw;
+    padding-bottom: 3.1vw;
+    padding-left: 1vw;
     border-bottom: 1.2vw solid #ffda45;
   }
 
   .request {
     display: flex;
     align-items: flex-start;
-    height: 138vw;
+    height: 138.2vw;
   }
 
   .request__for {
@@ -669,14 +680,14 @@ body {
     line-height: 11vw;
     position: absolute;
     padding-left: 19.5vw;
-    padding-top: 9.4vw;
+    padding-top: 9.6vw;
   }
 
   .request__img {
-    height: 70vw;
-    width: 82vw;
-    padding-left: 2vw;
-    padding-top: 33vw;
+    height: 69.9vw;
+    width: 81.7vw;
+    padding-left: 2.3vw;
+    padding-top: 34vw;
     position: absolute;
   }
 
@@ -693,12 +704,12 @@ body {
     font-size: 5.5vw;
     padding: 3vw 18.8vw 3.7vw 18vw;
     position: absolute;
-    margin-top: 111.5vw;
+    margin-top: 112.1vw;
     margin-left: 2.5vw;
   }
 
   .speakers {
-    height: 147vw;
+    height: 147.4vw;
   }
 
   .speakers__title {
@@ -710,8 +721,9 @@ body {
   }
 
   .one {
-    width: 82vw;
-    height: 81vw;
+    width: 81.4vw;
+    height: 81.2vw;
+    padding-left: 0.3vw;
   }
 
   .two, .three, .four, .five, .six, .seven, .eight {
@@ -720,7 +732,7 @@ body {
 
   .scroll {
     padding-left: 0;
-    padding-top: 85.5vw;
+    padding-top: 85.7vw;
   }
 
   .footer {
@@ -742,22 +754,22 @@ body {
 
   .footer__contacts {
     font-size: 2.6vw;
-    line-height: 4.1vw;
-    margin-top: -8vw;
+    line-height: 4vw;
+    margin-top: -9vw;
     padding-left: 52.5vw;
   }
 
   .wa {
     width: 6.5vw;
     height: 6.5vw;
-    padding-left: 14.5vw;
-    margin-top: -7.2vw;
+    padding-left: 14.65vw;
+    margin-top: -7.7vw;
   }
 
   .tg {
     width: 5.9vw;
-    height: 5.9vw;
-    margin-top: -8.5vw;
+    height: 6vw;
+    margin-top: -8.9vw;
     margin-left: -9.5vw;
   }
 
