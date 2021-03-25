@@ -9,7 +9,6 @@ body {
 .wrapper__header {
   background: url(./img/intro-bg.jpg) no-repeat center;
   background-size: cover;
-  /* height: 52em; */
   height: 58.23vw;
   width: 100%;
 }
